@@ -31,9 +31,9 @@ const LandingPage = () => {
           </h1>
           <p className="text-lg text-zinc-800">
             <em>
-              <span className="text-yellow-400">"</span>The <b>Right Ride</b>{" "}
-              for Every <b>Road</b> and <b>Mood</b>
-              <span className="text-yellow-400">"</span>
+              "The <b className="text-yellow-500">Right Ride</b> for Every{" "}
+              <b className="text-yellow-500">Road</b> and{" "}
+              <b className="text-yellow-500">Mood</b>"
             </em>
           </p>
         </div>
