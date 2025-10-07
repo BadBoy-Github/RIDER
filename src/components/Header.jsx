@@ -69,14 +69,14 @@ const Header = () => {
           </div>
           <div className="flex gap-6">
             <div className="border border-yellow-500 flex items-center w-40 py-2 px-4 rounded-full group">
-              <IoSearchOutline className="text-yellow-500 group-hover:scale-110 group-hover:font-semibold transition-all duration-500  mr-2 size-5" />
+              <IoSearchOutline className="text-yellow-500 group-hover:scale-[120%] transition-all duration-500  mr-2 size-5" />
               <input
                 type="text"
-                className="outline-none bg-transparent placeholder-white text-yellow-800 w-full"
+                className="outline-none bg-transparent placeholder-white text-white w-full"
                 placeholder="Search..."
               />
             </div>
-            <div className="flex items-center justify-center bg-yellow-600 hover:bg-zinc-800 text-zinc-800 hover:text-yellow-600 rounded-full p-1 w-10 h-10 transition-colors duration-500">
+            <div className="flex items-center justify-center bg-yellow-600 hover:bg-zinc-800 text-zinc-800 hover:text-yellow-600 rounded-full p-1 w-10 h-10 transition-colors duration-500 outline outline-zinc-800 hover:outline-yellow-600">
               <FaUser className="" />
             </div>
           </div>
