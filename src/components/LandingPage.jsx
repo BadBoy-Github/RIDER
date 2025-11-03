@@ -1,27 +1,38 @@
+
+// Components
+import Search from "./Search";
+
+// Icons
+import { FaShippingFast } from "react-icons/fa";
+import { GiRobber } from "react-icons/gi";
+import { RiCustomerService2Fill } from "react-icons/ri";
+
 const desc = [
   {
-    icon: "icon1",
-    title: "title1",
-    content: "content2",
+    icon: <FaShippingFast />,
+    title: "Lightning-Fast Rides ⚡",
+    content:
+      "Book instantly and hit the road in minutes — no waiting, no hassle.",
   },
   {
-    icon: "icon2",
-    title: "title2",
-    content: "content2",
+    icon: <GiRobber />,
+    title: "No Hidden Fees 💸",
+    content:
+      "Enjoy transparent fares with 0% commission and full value for every ride.",
   },
   {
-    icon: "icon3",
-    title: "title3",
-    content: "content3",
+    icon: <RiCustomerService2Fill />,
+    title: "24/7 Support 💬",
+    content: "Our team’s always here to help, anytime you need us.",
   },
 ];
 
 const LandingPage = () => {
   return (
-    <div className="container mx-auto h-[500px] lg:h-[600px]">
-      <div className="h-full px-4 bg-zinc-200">
-        <div className="h-[30%] lg:h-[40%] flex flex-col items-center justify-start pb-10 lg:justify-center pt-2 lg:pt-0 text-white">
-          <h1 className="text-[50px] font-bold ">
+    <section id="home" className="container mx-auto h-[700px] lg:h-[700px]">
+      <div className="h-full bg-zinc-100">
+        <div className="h-[26%] lg:h-[40%] flex flex-col items-center justify-start pb-10 lg:justify-center pt-2 lg:pt-0 text-white">
+          <h1 className="text-[30px] lg:text-[50px] font-bold ">
             <button class="button" data-text="Awesome">
               <span class="actual-text">&nbsp;RIDER&nbsp;</span>
               <span aria-hidden="true" class="hover-text">
@@ -29,7 +40,7 @@ const LandingPage = () => {
               </span>
             </button>
           </h1>
-          <p className="text-lg text-zinc-800">
+          <p className="text-[16px] lg:text-lg text-zinc-600">
             <em>
               "The <b className="text-yellow-500">Right Ride</b> for Every{" "}
               <b className="text-yellow-500">Road</b> and{" "}
@@ -38,26 +49,32 @@ const LandingPage = () => {
           </p>
         </div>
 
-        <div className="h-[70%] lg:h-[60%] bg-yellow-600 flex flex-col items-center justify-center relative">
-          <h2 className="text-xl font-semibold mb-4">Why Choose Us</h2>
+        <div className="h-[70%] lg:h-[60%] bg-yellow-600 flex flex-col items-center justify-end pb-10 relative">
+          <h2 className=" mb-6 heading">Why Choose Us</h2>
           <div className="grid grid-cols-3 px-8 w-full gap-10">
             {desc.map((item, index) => (
               <div
                 key={index}
-                className="bg-white/50 p-4 text-center flex flex-col items-center"
+                className="bg-white/50 p-2 text-end flex flex-col justify-center items-center h-40 rounded-lg"
               >
-                <div className="text-4xl">{item.icon}</div>
-                <div className="text-lg font-semibold mt-2">{item.title}</div>
-                <div className="text-gray-600 mt-1">{item.content}</div>
+                <div className="flex items-center justify-between w-full h-full px-4">
+                  <div className=" bg-yellow-600 w-28 h-28 rounded-lg flex items-center justify-center overflow-hidden text-5xl">{item.icon}</div>
+                  <div className="flex flex-col items-end justify-start h-full w-[70%]">
+                    <div className="text-lg font-semibold mt-2">
+                      {item.title}
+                    </div>
+                    <div className="text-gray-600 mt-2">{item.content}</div>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
-          <div className="absolute bg-red-600 w-full -top-10 h-20  flex items-center justify-center">
-            search
+          <div className="absolute w-full -top-10 h-[200px]  flex items-center justify-center">
+            <Search />
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

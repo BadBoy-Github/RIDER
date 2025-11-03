@@ -2,8 +2,8 @@ const Contact = () => {
   return (
     <>
       <section id="contact" className="container mx-auto">
-        <div className="bg-gradient-to-br from-emerald-500 to-emerald-700 px-4">
-          <div className="w-full py-6 text-3xl font-bold flex items-center justify-center bg-gradient-to-r from-amber-500 to-amber-600 text-white">
+        <div className="bg-yellow-700">
+          <div className="w-full bg-red-500 flex items-center justify-center text-4xl py-10 font-semibold">
             Contact Us
           </div>
           <div className="w-full h-full flex">
@@ -25,7 +25,7 @@ const Contact = () => {
                       name="name"
                       type="text"
                       placeholder="Enter Your Name"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all"
                       required
                     />
                   </div>
@@ -41,7 +41,7 @@ const Contact = () => {
                       name="email"
                       type="email"
                       placeholder="Enter Your Email ID"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all"
                       required
                     />
                   </div>
@@ -60,7 +60,7 @@ const Contact = () => {
                       name="designation"
                       type="text"
                       placeholder="Enter Your Designation"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all"
                       required
                     />
                   </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                     <select
                       id="gender"
                       name="gender"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all bg-white"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all bg-white"
                       required
                     >
                       <option value="" disabled selected>
@@ -102,7 +102,7 @@ const Contact = () => {
                     id="message"
                     rows="6"
                     placeholder="Enter your message here..."
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all resize-vertical"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all resize-vertical"
                     required
                   ></textarea>
                 </div>
@@ -110,7 +110,7 @@ const Contact = () => {
                 <div className="flex justify-center mt-8">
                   <button
                     type="submit"
-                    className="px-8 py-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-semibold rounded-lg shadow-md hover:from-emerald-600 hover:to-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-opacity-50 transition-all transform hover:-translate-y-1"
+                    className="px-8 py-3 bg-yellow-600 cursor-pointer text-white font-semibold rounded-lg shadow-md hover:from-yellow-600 hover:to-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50 transition-all"
                   >
                     Send Message
                   </button>
@@ -118,7 +118,9 @@ const Contact = () => {
               </form>
             </div>
             <div className="hidden lg:block p-6 w-[30%]">
-              <div className="bg-red-600 h-full p-6 flex items-center justify-center">cartoon</div>
+              <div className="bg-red-600 h-full p-6 flex items-center justify-center">
+                cartoon
+              </div>
             </div>
           </div>
         </div>

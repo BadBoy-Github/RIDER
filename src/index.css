@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
-/* From Uiverse.io by satyamchaudharydev */
-/* === removing default button style ===*/
+body::selection {
+    background: #fdc700;
+    color: #000;
+}
+
+
 .button {
     margin: 0;
     height: auto;
@@ -20,14 +24,13 @@
     letter-spacing: 3px;
     text-decoration: none;
     font-size: var(--fs-size);
-    font-family: "Arial";
     position: relative;
     text-transform: uppercase;
     color: transparent;
     -webkit-text-stroke: 1px var(--text-stroke-color);
 }
 
-/* this is the text, when you hover on button */
+/* this is the text, when you hover */
 .hover-text {
     position: absolute;
     box-sizing: border-box;
@@ -35,7 +38,7 @@
     color: var(--animation-color);
     width: 0%;
     inset: 0;
-    border-right: var(--border-right) solid var(--animation-color);
+    /* border-right: var(--border-right) solid var(--animation-color); */
     overflow: hidden;
     transition: 0.5s;
     -webkit-text-stroke: 1px var(--animation-color);
@@ -46,3 +49,11 @@
     width: 100%;
     filter: drop-shadow(0 0 23px var(--animation-color))
 }
+
+/* All heading and subheading */
+.heading {
+    @apply text-2xl font-bold text-zinc-800;
+}
+
+
+
