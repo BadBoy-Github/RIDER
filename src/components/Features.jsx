@@ -63,7 +63,7 @@ const features = [
 const Features = () => {
   return (
     <section
-      id="features"
+      id="feature"
       className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white" />

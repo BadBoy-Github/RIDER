@@ -69,7 +69,7 @@ const Header = () => {
           <div className="hidden lg:flex gap-8 text-yellow-100">
             {[
               { id: "home", label: "Home" },
-              { id: "features", label: "Features" },
+              { id: "feature", label: "Features" },
               { id: "review", label: "Reviews" },
               { id: "contact", label: "Contact" },
             ].map((item) => (
