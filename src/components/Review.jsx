@@ -92,7 +92,7 @@ const StarRating = ({ rating }) => {
 
 const Review = () => {
   return (
-    <section id="review" className="py-16 px-4">
+    <section id="review" className="py-16 px-4 overflow-hidden">
       <div className="container mx-auto max-w-7xl">
         {/* Section Header */}
         <div className="mb-12 lg:mb-16 text-center">

@@ -2,6 +2,7 @@
 
 body {
     background-color: #f4f4f5;
+    overflow-x: hidden;
 }
 
 body::selection {

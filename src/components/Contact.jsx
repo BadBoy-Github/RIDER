@@ -21,7 +21,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-16 px-4">
+    <section id="contact" className="py-16 px-4 overflow-hidden">
       <div className="container mx-auto max-w-7xl">
         {/* Section Header */}
         <div className="text-center mb-12 lg:mb-16">
