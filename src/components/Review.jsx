@@ -41,7 +41,7 @@ const reviews = [
 const Review = () => {
   return (
     <>
-      <section id="review" className="h-fit container mx-auto">
+      <section id="review" className="h-fit container mx-auto pt-16">
         <div className="bg-orange-600 h-full w-full px-4">
           <div className="flex items-center justify-center bg-green-600 text-4xl py-10 font-semibold h-[100px]">
             Review

@@ -28,22 +28,22 @@ const features = [
 const Features = () => {
   return (
     <>
-      <section id="feature" className="container mx-auto h-fit">
-        <div className="bg-sky-600 h-full px-4">
-          <div className="w-full flex items-center justify-center h-[10%] bg-red-600 text-4xl py-10 font-semibold">
+      <section id="feature" className="container mx-auto h-fit pt-16">
+        <div className="h-full px-4">
+          <div className="w-full flex items-center justify-center h-[10%] text-4xl py-16 font-semibold">
             Features
           </div>
-          <div className="h-fit w-full grid grid-cols-1 lg:grid-cols-2 gap-4 bg-amber-600">
+          <div className="h-fit w-full grid grid-cols-1 lg:grid-cols-2 gap-4">
             {features.map((item, index) => (
               <div
-                className="bg-white rounded-xl p-6 h-fit"
+                className="bg-yellow-600 rounded-xl p-6 h-fit"
                 key={index}
               >
                 <div className="flex items-center justify-between pt-2 pb-4">
-                  <div className="bg-orange-600 h-14 w-14 rounded-full p-2 flex items-center justify-center">{item.icon}</div>
-                  <div className="text-yellow-800 font-bold text-xl">{item.name}</div>
+                  <div className="bg-white h-14 w-14 rounded-full p-2 flex items-center justify-center">{item.icon}</div>
+                  <div className="text-white font-bold text-xl">{item.name}</div>
                 </div>
-                <div className="bg-green-600 rounded-lg p-2">{item.content}</div>
+                <div className="bg-yellow-500/40 rounded-lg p-2">{item.content}</div>
               </div>
             ))}
           </div>

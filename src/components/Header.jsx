@@ -26,7 +26,7 @@ const Header = () => {
     <>
       <div className="h-20 container mx-auto sticky top-0 z-50">
         <div className="bg-yellow-600 shadow-xl  h-full px-4 flex items-center justify-between">
-          <div className="flex items-center justify-start">
+          <div className="flex items-center justify-start" id="header">
             <a href="/">
               <div className="flex group/logo cursor-pointer">
                 <div className="flex items-center justify-center bg-white p-2 rounded-full w-12 h-12 mr-2">

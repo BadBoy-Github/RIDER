@@ -10,26 +10,26 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 const desc = [
   {
     icon: <FaShippingFast />,
-    title: "Lightning-Fast Rides ⚡",
+    title: "Lightning-Fast Rides",
     content:
       "Book instantly and hit the road in minutes — no waiting, no hassle.",
   },
   {
     icon: <GiRobber />,
-    title: "No Hidden Fees 💸",
+    title: "No Hidden Fees",
     content:
       "Enjoy transparent fares with 0% commission and full value for every ride.",
   },
   {
     icon: <RiCustomerService2Fill />,
-    title: "24/7 Support 💬",
+    title: "24/7 Support",
     content: "Our team’s always here to help, anytime you need us.",
   },
 ];
 
 const LandingPage = () => {
   return (
-    <section id="home" className="container mx-auto h-[700px] lg:h-[700px]">
+    <section id="home" className="container mx-auto h-[800px]">
       <div className="h-full bg-zinc-100">
         <div className="h-[26%] lg:h-[40%] flex flex-col items-center justify-start pb-10 lg:justify-center pt-2 lg:pt-0 text-white">
           <h1 className="text-[30px] lg:text-[50px] font-bold ">
