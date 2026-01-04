@@ -8,21 +8,19 @@ const Search = () => {
   return (
     <>
       <div className="w-full h-full flex items-center justify-center">
-        <div className="bg-white ring ring-yellow-200 w-[80%] h-[80%] rounded-2xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 items-center justify-start gap-10 shadow-2xl relative p-2">
-          <div className="flex items-center justify-center gap-3 bg-zinc-200 py-2 px-4 rounded-xl ml-2">
-            <FaRegCircleDot className="text-zinc-400 size-5" />
+        <div className="bg-white ring ring-yellow-200 w-[100%] h-[100%] rounded-2xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 items-center justify-start gap-4 shadow-2xl relative p-2">
+          <div className="flex items-center justify-center gap-3 bg-zinc-200 py-2 px-4 rounded-xl ml-0">
             <input
               type="text"
               placeholder="Leaving From"
-              className="w-44 outline-none transition-all p-1 placeholder:font-semibold"
+              className="w-[100%] outline-none transition-all p-1 placeholder:font-semibold"
             />
           </div>
           <div className="flex items-center justify-center gap-3 bg-zinc-200 py-2 px-4 rounded-xl">
-            <FaRegCircleDot className="text-zinc-400 size-5" />
             <input
               type="text"
               placeholder="Going To"
-              className="w-44 outline-none transition-all p-1 placeholder:font-semibold"
+              className="w-[100%] outline-none transition-all p-1 placeholder:font-semibold"
             />
           </div>
           <div className="flex items-center justify-center gap-3 bg-zinc-200 py-2 px-4 rounded-xl">
@@ -42,7 +40,7 @@ const Search = () => {
               <option value="prefer-not-to-say">4</option>
             </select>
           </div>
-          <div className="flex items-center justify-center gap-3 bg-zinc-200 py-2 px-4 rounded-xl w-[300px]">
+          <div className="flex items-center justify-center gap-3 bg-zinc-200 py-2 px-4 rounded-xl w-[240px]">
             <MdDateRange className="text-zinc-400 size-5" />
             <input
               type="text"
@@ -53,7 +51,7 @@ const Search = () => {
             />
           </div>
           <div className=" absolute right-0 bg-yellow-600 w-[90px] h-full rounded-r-xl text-white font-semibold text-lg flex items-center justify-center cursor-pointer group">
-            <p className="group-hover:scale-125 transition-all duration-300">
+            <p className="group-hover:scale-110 transition-all duration-300">
               Search
             </p>
           </div>

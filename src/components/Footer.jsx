@@ -115,7 +115,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <div className="text-yellow-100/90 text-sm">Phone</div>
-                  <div className="font-medium">+1 (555) 123-4567</div>
+                  <div className="font-medium">+91 98765 43210</div>
                 </div>
               </li>
               <li className="flex items-start gap-3 group">
@@ -125,15 +125,6 @@ const Footer = () => {
                 <div>
                   <div className="text-yellow-100/90 text-sm">Email</div>
                   <div className="font-medium">support@rider.com</div>
-                </div>
-              </li>
-              <li className="flex items-start gap-3 group">
-                <div className="p-2 bg-white/10 rounded-lg group-hover:bg-white/20 transition-all duration-300">
-                  <FaMapMarkerAlt className="text-yellow-300" />
-                </div>
-                <div>
-                  <div className="text-yellow-100/90 text-sm">Address</div>
-                  <div className="font-medium">123 Ride Street</div>
                 </div>
               </li>
             </ul>

@@ -227,7 +227,7 @@ const Contact = () => {
                     <div>
                       <h4 className="text-white font-semibold mb-1">Call Us</h4>
                       <p className="text-yellow-100 text-sm">
-                        +1 (555) 123-4567
+                        +91 98765 43210
                       </p>
                       <p className="text-yellow-100 text-sm">
                         24/7 Customer Support
@@ -249,47 +249,14 @@ const Contact = () => {
                       <p className="text-yellow-100 text-sm">info@rider.com</p>
                     </div>
                   </div>
-
-                  <div className="flex items-start gap-4 group">
-                    <div className="p-3 bg-white/20 rounded-xl group-hover:bg-white/30 transition-all duration-300">
-                      <FaMapMarkerAlt className="text-white text-lg" />
-                    </div>
-                    <div>
-                      <h4 className="text-white font-semibold mb-1">
-                        Visit Us
-                      </h4>
-                      <p className="text-yellow-100 text-sm">123 Ride Street</p>
-                      <p className="text-yellow-100 text-sm">
-                        City, State 12345
-                      </p>
-                    </div>
-                  </div>
                 </div>
-
-                {/* Working Hours */}
-                <div className="mt-10 pt-6 border-t border-yellow-400/30">
-                  <h4 className="text-white font-semibold mb-3">
-                    Working Hours
-                  </h4>
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-yellow-100 text-sm">
-                      <span>Monday - Friday</span>
-                      <span className="font-medium">9:00 AM - 8:00 PM</span>
-                    </div>
-                    <div className="flex justify-between text-yellow-100 text-sm">
-                      <span>Saturday - Sunday</span>
-                      <span className="font-medium">10:00 AM - 6:00 PM</span>
-                    </div>
-                  </div>
-                </div>
-
                 {/* Emergency Contact */}
                 <div className="mt-6 p-4 bg-white/10 rounded-xl border border-yellow-400/20">
                   <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
-                    <div className="w-2 h-2 bg-red-400 rounded-full animate-pulse" />
+                    <div className="w-2 h-2 bg-red-600 rounded-full animate-pulse" />
                     Emergency Support
                   </h4>
-                  <p className="text-yellow-100 text-sm">+1 (555) 911-RIDE</p>
+                  <p className="text-yellow-100 text-sm">+91 98765 43210</p>
                   <p className="text-yellow-100/70 text-xs mt-1">
                     Available 24/7 for urgent ride issues
                   </p>

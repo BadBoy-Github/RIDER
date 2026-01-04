@@ -30,7 +30,7 @@ const LandingPage = () => {
   return (
     <section
       id="home"
-      className="relative overflow-hidden bg-gradient-to-b from-zinc-50 to-zinc-100 pt-20"
+      className="relative overflow-hidden bg-gradient-to-b from-zinc-50 to-zinc-100 pt-8"
     >
       <div className="container mx-auto px-4">
         {/* Animated background elements */}
